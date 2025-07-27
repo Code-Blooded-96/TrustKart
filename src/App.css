@@ -30259,3 +30259,62 @@ background-color: #f3f6ff;
 .support-btn:hover {
   background-color: #1b5e20;
 }
+/* --- Team Section Styling --- */
+.team-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.team-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.team-member-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+}
+
+.team-member-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-member-card h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.team-member-card p {
+  color: #555;
+  font-size: 1rem;
+}
+/* --- Hides the team member image and role --- */
+.team-member-card img,
+.team-member-card p {
+  display: none;
+}
+/* Styling for team member links */
+.team-member-card a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Uses the same color as the h3 tag */
+}
+
+/* Optional: Change color on hover */
+.team-member-card a:hover h3 {
+  color: #0aad0a; 
+}
